@@ -5,8 +5,8 @@ namespace Creational\AbstractFactory;
 class KIACar implements CarInterface
 {
 
-    private $price;
-    private $tax;
+    private int $price;
+    private int $tax;
 
     public function __construct($price, $tax)
     {
@@ -14,7 +14,7 @@ class KIACar implements CarInterface
         $this->tax = $tax;
     }
 
-    public function calculatePrice()
+    public function calculatePrice() : int
     {
         return $this->price + $this->tax + 200000;
     }

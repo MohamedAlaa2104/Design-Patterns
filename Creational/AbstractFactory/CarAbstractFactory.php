@@ -5,15 +5,15 @@ namespace Creational\AbstractFactory;
 class CarAbstractFactory
 {
 
-    private $tax = 100000;
-    private $price;
+    private int $tax = 100000;
+    private int $price;
 
     public function __construct($price)
     {
         $this->price = $price;
     }
 
-    public function createBWMCar() :BMWCar {
+    public function createBWMCar() : BMWCar {
         return new BMWCar($this->price);
     }
 

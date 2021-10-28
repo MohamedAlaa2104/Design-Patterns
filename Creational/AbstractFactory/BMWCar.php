@@ -5,8 +5,7 @@ namespace Creational\AbstractFactory;
 class BMWCar implements CarInterface
 {
 
-
-    private $price;
+    private int $price;
 
     /**
      * @param $price
@@ -16,7 +15,7 @@ class BMWCar implements CarInterface
         $this->price = $price;
     }
 
-    public function calculatePrice()
+    public function calculatePrice() : int
     {
         return $this->price + 120000;
     }
