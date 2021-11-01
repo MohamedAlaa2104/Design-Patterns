@@ -1,6 +1,6 @@
 <?php
 
-namespace Creational;
+namespace Tests;
 
 use Creational\Pool\CarPool;
 use PHPUnit\Framework\TestCase;
