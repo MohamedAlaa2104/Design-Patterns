@@ -13,6 +13,6 @@ class SimpleFactoryTest extends TestCase
         $factory = new SimpleFactory();
         $car = $factory->createCar();
 
-        $this->assertInstanceOf(Car::class, $car);
+        $this->assertInstanceOf(Car::class, $card);
     }
 }
