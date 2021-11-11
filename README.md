@@ -16,3 +16,4 @@ Examples of Design Patterns in PHP with unit test
 
 1- Adapter <br>
 2- Bridge <br>
+3- Composite <br>
